@@ -1,0 +1,273 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Oswald;
+}
+
+#navbar {
+    background-color: #fffff7;
+    box-shadow: 0 0 2px 0 #c7c7c7b3;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    opacity: 0.95;
+}
+
+#navbar .logo {
+    max-height: 30px;
+}
+
+#navbar .nav-container {
+    width: 1138px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+#navbar .right {
+    display: flex;
+    align-items: center;
+}
+
+#navbar .right a {
+    text-decoration: none;
+    padding-right: 1rem;
+    color: #00000080;
+}
+
+#navbar .right a:hover {
+    color: black;
+}
+
+input[type=text] {
+    padding: 6px 10px;
+    font-size: 16px;
+    border: none;
+    background-color: transparent;
+  }
+  
+.search-container button {
+    float: right;
+    padding: 6px 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+  }
+
+.search-container {
+    border: 1px solid #c7c7c7b3;
+    border-radius: 30px;
+}
+
+#container {
+    width: 1170px;
+    margin: auto;
+    margin-top: 6rem;
+}
+
+#container .title {
+    width: 1138px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+#container .title h1 {
+    padding-bottom: 1rem;
+}
+
+#container .features {
+    width: 1138px;
+    margin-top: 2rem;
+    margin: auto;
+}
+
+#container h2 .shadow {
+    border-bottom: 1px #2F4F4F solid;
+    padding: 1rem 0;
+}
+
+#container h2 {
+    border-bottom: 1px #c7c7c7b3 solid;
+    padding: 1rem 0;
+}
+
+#container .items img.img {
+    height: 240px;
+    width: 170px;
+    object-fit: cover;
+}
+
+.items {
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.items .item {
+    display: flex;
+    width: 553px;
+    margin: 1rem;
+    border: solid 1px #c7c7c7b3;
+}
+
+.items .item .article-show {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    padding-right: 1rem;
+}
+
+img.avatar {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.article-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+}
+
+.author-info {
+    padding-left: 1rem;
+}
+
+#container .stories {
+    width: 1138px;
+    margin-top: 2rem;
+    margin: auto;
+}
+
+.all-stories img.img {
+    width: 356px;
+}
+
+.all-stories .item {
+    border: 1px solid #c7c7c7b3;
+    width: 358px;
+    margin: 1rem;
+}
+
+.all-stories .item .article-show {
+    width: 90%;
+    margin: auto;
+}
+
+.all-stories {
+    display: flex;
+    align-content: space-between;
+    margin-top: 2rem;
+    margin: auto;
+    width: 80%;
+    margin-bottom: 6rem;
+    flex-wrap: wrap;
+}
+
+.all-stories .article-footer {
+    margin-bottom: 1rem;
+}
+
+.foot {
+    width: 1138px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #c7c7c7b3;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    color: #00000080;
+}
+
+.article-author-info {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    margin-top: 8rem;
+}
+
+img.author-avatar {
+    height: 72px;
+    border-radius: 50%;
+    padding: 0 1rem;
+}
+
+.info-author {
+    padding: 0 1rem;
+}
+
+.info-author .info-top {
+    margin-bottom: 0.5rem;
+}
+
+.info-author p.author-biography {
+    margin-bottom: 0.5rem;
+}
+
+.article {
+    width: 50%;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.article h1 {
+    font-size: 3rem;
+}
+
+.article img.article-image {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.article p, blockquote {
+    margin-top: 2rem;
+}
+
+.tags {
+    display: flex;
+    margin-bottom: 4rem;
+}
+
+.tag {
+    background-color: aquamarine;
+    padding: 0.2rem 0.3rem;
+    margin: 0.2rem;
+}
+
+span.follow {
+    padding: 0.1rem 0.4rem;
+    border: 1px green solid;
+    border-radius: 15px;
+}
+
+footer#foot {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 99;
+    background-color: #fffff7;
+    border-top: 2px solid #e7eaea;
+}
+
+.center {
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+    width: 35%;
+    margin: auto;
+}
+
+.center img {
+    margin-right: 2rem;
+}
